@@ -1,4 +1,4 @@
-# aerobalance
+# Aerial Pendulum
 Code for running the libraries of the Aerobalance project, Robotics and Automation Lab, University of Padova.
 
 ## Important info
@@ -27,7 +27,7 @@ colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 2. Clone this library and build in the workspace.
 ```bash
 cd ~/aerobalance_ws/src
-git clone git@github.com:P3dr1x/aerobalance.git
+git clone git@github.com:P3dr1x/Aerial-Pendulum.git
 cd ~/aerobalance_ws
 colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 ```
@@ -79,16 +79,16 @@ ros2 control switch_controllers --activate joint_state_broadcaster --activate jo
 ```
 
 ### Running dynamixel_joint_trajectory
-To publish a trajectory from a given file, first create the file in `~/aerobalance_ws/src/aerobalance/dynamixel_joint_trajectory/trajectories/`. Each column is a position (entry 1) and velocity (entry 2).
+To publish a trajectory from a given file, first create the file in `~/aerobalance_ws/src/Aerial-Pendulum/dynamixel_joint_trajectory/trajectories/`. Each column is a position (entry 1) and velocity (entry 2).
 The node should already be running with the `dynamixel_motors.launch.py` launch file.
 To execute, for example, a sinusoidal trajectory of 60 degrees of amplitude, send the action command:
 ```
-ros2 action send_goal /trajectory_file_position aerobalance_interfaces/action/TrajectoryFilePosition "{'filepath':'~/aerobalance_ws/src/aerobalance/dynamixel_joint_trajectory/trajectories/trajectories2/posvel_sin0.2_dt1ms.txt','timestep':0.01,'joint':'motor'}"  
+ros2 action send_goal /trajectory_file_position aerobalance_interfaces/action/TrajectoryFilePosition "{'filepath':'~/aerobalance_ws/src/Aerial-Pendulum/dynamixel_joint_trajectory/trajectories/trajectories2/posvel_sin0.2_dt1ms.txt','timestep':0.01,'joint':'motor'}"  
 ```
 
 To execute the corresponding velocity trajectory, run the following action:
 ```
-ros2 action send_goal /trajectory_file_velocity aerobalance_interfaces/action/TrajectoryFileVelocity "{'filepath':'~/aerobalance_ws/src/aerobalance/dynamixel_joint_trajectory/trajectories/trajectories2/vel_cos0.2_dt1ms.txt'}" --feedback
+ros2 action send_goal /trajectory_file_velocity aerobalance_interfaces/action/TrajectoryFileVelocity "{'filepath':'~/aerobalance_ws/src/Aerial-Pendulum/dynamixel_joint_trajectory/trajectories/trajectories2/vel_cos0.2_dt1ms.txt'}" --feedback
 ```
 
 There is also the possibility to run sinusoidal trajectories with 40 degrees of amplitude
