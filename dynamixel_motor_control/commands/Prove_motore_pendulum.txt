@@ -1,0 +1,31 @@
+---------------- POSIZIONAMENTO CON PROF TRAP VEL + PAUSA + RITORNO (SCRIPT PYTHON) ------------------------------------------------------------------------------------------
+---------------- ANDATA, RITORNO = 4s / ATTESA = 5s --------------------------------------------------------------------------------------------------------------------------
+
+cd DynamixelSDK/python/tests/protocol2_0
+
+python trapez_40deg.py
+
+
+---------------- TRAIETTORIA SINUSOIDALE DI POSIZIONE ------------------------------------------------------------------------------------------------------------------------
+
+ros2 launch dynamixel_motor_control dynamixel_motors.launch.py
+
+
+ros2 action send_goal /trajectory_file_position aerobalance_interfaces/action/TrajectoryFilePosition "{'filepath':'~/aerobalance_ws/src/aerobalance/dynamixel_joint_trajectory/trajectories/trajectories2/posvel_sin0.2_dt1ms_amp40deg.txt','timestep':0.01,'joint':'motor'}" 
+
+ros2 action send_goal /trajectory_file_position aerobalance_interfaces/action/TrajectoryFilePosition "{'filepath':'~/aerobalance_ws/src/aerobalance/dynamixel_joint_trajectory/trajectories/trajectories2/posvel_sin0.2_dt50ms_amp40deg_20sec.txt','timestep':0.01,'joint':'motor'}" 
+
+
+
+---------------- TRAIETTORIA DI VELOCITÀ (COSINUOSOIDALE) --------------------------------------------------------------------------------------------------------------------
+
+ros2 control switch_controllers --start joint_state_broadcaster --stop joint_trajectory_controller --start velocity_controller
+
+
+
+ros2 action send_goal /trajectory_file_velocity aerobalance_interfaces/action/TrajectoryFileVelocity "{'filepath':'~/aerobalance_ws/src/aerobalance/dynamixel_joint_trajectory/trajectories/trajectories2/vel_cos0.2_dt1ms_amp40deg.txt'}" --feedback
+
+
+
+ros2 control switch_controllers --start joint_state_broadcaster --stop velocity_controller --start joint_trajectory_controller
+

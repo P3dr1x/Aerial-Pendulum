@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/aerobalance_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerobalance_interfaces/action/detail/dds_fastrtps/trajectory_file_position__type_support.cpp.o"
+  "CMakeFiles/aerobalance_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerobalance_interfaces/action/detail/dds_fastrtps/trajectory_file_position__type_support.cpp.o.d"
+  "CMakeFiles/aerobalance_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerobalance_interfaces/action/detail/dds_fastrtps/trajectory_file_velocity__type_support.cpp.o"
+  "CMakeFiles/aerobalance_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerobalance_interfaces/action/detail/dds_fastrtps/trajectory_file_velocity__type_support.cpp.o.d"
+  "libaerobalance_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libaerobalance_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/aerobalance_interfaces/action/detail/dds_fastrtps/trajectory_file_position__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/aerobalance_interfaces/action/detail/dds_fastrtps/trajectory_file_velocity__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/aerobalance_interfaces/action/detail/trajectory_file_position__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/aerobalance_interfaces/action/detail/trajectory_file_velocity__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/aerobalance_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

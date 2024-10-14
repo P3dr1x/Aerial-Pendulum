@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dynamixel-joint-trajectory
+Version: 0.0.0
+Summary: Publishes a joint trajectory in position and/or velocity mode.
+Home-page: UNKNOWN
+Maintainer: yash
+Maintainer-email: yjvyas@gmail.com
+License: MIT License
+Platform: UNKNOWN
+
+UNKNOWN
+

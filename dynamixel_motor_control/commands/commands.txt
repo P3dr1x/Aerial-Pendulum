@@ -1,0 +1,33 @@
+ros2 action send_goal /joint_trajectory_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory -f "{
+  trajectory: {
+    joint_names: [motor],
+    points: [
+      { positions: [-0.5], time_from_start: { sec: 2 } },
+      { positions: [0.5], time_from_start: { sec: 4 } },
+      { positions: [0.0], time_from_start: { sec: 6 } }
+    ]
+  }
+}"
+
+ros2 control switch_controllers --start joint_state_broadcaster --stop velocity_controller --start joint_trajectory_controller
+
+ros2 control switch_controllers --start joint_state_broadcaster --stop joint_trajectory_controller --start velocity_controller
+
+ros2 topic pub -1 /velocity_controller/commands std_msgs/msg/Float64MultiArray "data: [0.05]"
+
+ros2 action send_goal /joint_trajectory_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory -f "{
+  trajectory: {
+    joint_names: [motor],
+    points: [
+      { positions: [-0.5], velocities: [-1.0], time_from_start: { sec: 2 } },
+      { positions: [0.5], velocities: [1.0], time_from_start: { sec: 4 } },
+      { positions: [0.0], velocities: [0.0], time_from_start: { sec: 6 } }
+    ]
+  }
+}"
+
+ros2 action send_goal /trajectory_file_position aerobalance_interfaces/action/TrajectoryFilePosition "{'filepath':'~/aerobalance_ws/src/aerobalance/dynamixel_joint_trajectory/scripts/trajectories1/posvel_1_1.0.txt','timestep':0.01,'joint':'motor'}" 
+
+ros2 action send_goal /trajectory_file_position aerobalance_interfaces/action/TrajectoryFilePosition "{'filepath':'~/aerobalance_ws/src/aerobalance/dynamixel_joint_trajectory/scripts/trajectories2/posvel_sin0.2_dt50ms.txt','timestep':0.01,'joint':'motor'}" 
+
+ros2 action send_goal /trajectory_file_velocity aerobalance_interfaces/action/TrajectoryFileVelocity "{'filepath':'~/aerobalance_ws/src/aerobalance/dynamixel_joint_trajectory/scripts/trajectories2/vel_cos0.2_dt50ms.txt'}" --feedback

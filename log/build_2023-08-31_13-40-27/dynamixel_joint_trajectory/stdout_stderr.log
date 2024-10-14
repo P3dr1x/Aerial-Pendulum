@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating dynamixel_joint_trajectory.egg-info
+writing dynamixel_joint_trajectory.egg-info/PKG-INFO
+writing dependency_links to dynamixel_joint_trajectory.egg-info/dependency_links.txt
+writing entry points to dynamixel_joint_trajectory.egg-info/entry_points.txt
+writing requirements to dynamixel_joint_trajectory.egg-info/requires.txt
+writing top-level names to dynamixel_joint_trajectory.egg-info/top_level.txt
+writing manifest file 'dynamixel_joint_trajectory.egg-info/SOURCES.txt'
+reading manifest file 'dynamixel_joint_trajectory.egg-info/SOURCES.txt'
+writing manifest file 'dynamixel_joint_trajectory.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/lib/python3.10/site-packages/dynamixel-joint-trajectory.egg-link (link to .)
+Installing joint_trajectory_tracking script to /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/lib/dynamixel_joint_trajectory
+Installing velocity_trajectory_tracking script to /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/lib/dynamixel_joint_trajectory
+
+Installed /home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_joint_trajectory
+running install_data
+creating /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/share/ament_index
+creating /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/share/ament_index/resource_index
+creating /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/share/ament_index/resource_index/packages
+copying resource/dynamixel_joint_trajectory -> /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/share/ament_index/resource_index/packages
+copying package.xml -> /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/share/dynamixel_joint_trajectory

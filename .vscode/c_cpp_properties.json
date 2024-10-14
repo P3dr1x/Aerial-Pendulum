@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/mattia/aerobalance_ws/install/dynamixel_hardware/include/**",
+        "/home/mattia/aerobalance_ws/install/dynamixel_workbench_toolbox/include/**",
+        "/home/mattia/aerobalance_ws/install/dynamixel_workbench_msgs/include/**",
+        "/home/mattia/aerobalance_ws/install/aerobalance_interfaces/include/**",
+        "/home/mattia/interbotix_ws/install/moveit_visual_tools/include/**",
+        "/home/mattia/interbotix_ws/install/interbotix_xs_rviz/include/**",
+        "/home/mattia/interbotix_ws/install/interbotix_xs_ros_control/include/**",
+        "/home/mattia/interbotix_ws/install/interbotix_xs_msgs/include/**",
+        "/home/mattia/interbotix_ws/install/interbotix_xs_driver/include/**",
+        "/home/mattia/interbotix_ws/install/interbotix_perception_msgs/include/**",
+        "/home/mattia/interbotix_ws/install/interbotix_moveit_interface_msgs/include/**",
+        "/home/mattia/interbotix_ws/install/dynamixel_workbench_toolbox/include/**",
+        "/home/mattia/apriltag_ws/install/apriltag_ros/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/mattia/aerobalance_ws/src/dynamixel_hardware/dynamixel-workbench/dynamixel_workbench_toolbox/include/**",
+        "/home/mattia/aerobalance_ws/src/dynamixel_hardware/dynamixel_hardware/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

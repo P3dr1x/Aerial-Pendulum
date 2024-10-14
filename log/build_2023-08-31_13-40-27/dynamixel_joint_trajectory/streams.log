@@ -1,0 +1,25 @@
+[0.452s] Invoking command in '/home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_joint_trajectory': PYTHONPATH=/home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_joint_trajectory/prefix_override:/home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_joint_trajectory/build --no-deps install_data
+[0.628s] running develop
+[0.731s] running egg_info
+[0.732s] creating dynamixel_joint_trajectory.egg-info
+[0.732s] writing dynamixel_joint_trajectory.egg-info/PKG-INFO
+[0.732s] writing dependency_links to dynamixel_joint_trajectory.egg-info/dependency_links.txt
+[0.732s] writing entry points to dynamixel_joint_trajectory.egg-info/entry_points.txt
+[0.732s] writing requirements to dynamixel_joint_trajectory.egg-info/requires.txt
+[0.732s] writing top-level names to dynamixel_joint_trajectory.egg-info/top_level.txt
+[0.732s] writing manifest file 'dynamixel_joint_trajectory.egg-info/SOURCES.txt'
+[0.733s] reading manifest file 'dynamixel_joint_trajectory.egg-info/SOURCES.txt'
+[0.734s] writing manifest file 'dynamixel_joint_trajectory.egg-info/SOURCES.txt'
+[0.735s] running build_ext
+[0.735s] Creating /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/lib/python3.10/site-packages/dynamixel-joint-trajectory.egg-link (link to .)
+[0.735s] Installing joint_trajectory_tracking script to /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/lib/dynamixel_joint_trajectory
+[0.735s] Installing velocity_trajectory_tracking script to /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/lib/dynamixel_joint_trajectory
+[0.736s] 
+[0.736s] Installed /home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_joint_trajectory
+[0.736s] running install_data
+[0.736s] creating /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/share/ament_index
+[0.736s] creating /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/share/ament_index/resource_index
+[0.736s] creating /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/share/ament_index/resource_index/packages
+[0.736s] copying resource/dynamixel_joint_trajectory -> /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/share/ament_index/resource_index/packages
+[0.736s] copying package.xml -> /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/share/dynamixel_joint_trajectory
+[0.756s] Invoked command in '/home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_joint_trajectory' returned '0': PYTHONPATH=/home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_joint_trajectory/prefix_override:/home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_joint_trajectory/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_joint_trajectory/build --no-deps install_data

@@ -1,0 +1,12 @@
+string filepath
+---
+int8 error_code
+int8 SUCCESSFUL = 0
+int8 INVALID_FILE = 1
+int8 INVALID_GOAL = -1
+int8 INVALID_JOINTS = -2
+---
+std_msgs/Header header
+string[] joint_names
+float64[] actual
+float64[] desired

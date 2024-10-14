@@ -1,0 +1,31 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/mattia/aerobalance_ws/install/dynamixel_workbench_msgs/local/lib/python3.10/dist-packages",
+        "/home/mattia/aerobalance_ws/install/dynamixel_joint_trajectory/lib/python3.10/site-packages",
+        "/home/mattia/aerobalance_ws/install/aerobalance_interfaces/local/lib/python3.10/dist-packages",
+        "/home/mattia/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages",
+        "/home/mattia/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages",
+        "/home/mattia/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages",
+        "/home/mattia/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages",
+        "/home/mattia/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages",
+        "/home/mattia/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages",
+        "/home/mattia/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/mattia/aerobalance_ws/install/dynamixel_workbench_msgs/local/lib/python3.10/dist-packages",
+        "/home/mattia/aerobalance_ws/install/dynamixel_joint_trajectory/lib/python3.10/site-packages",
+        "/home/mattia/aerobalance_ws/install/aerobalance_interfaces/local/lib/python3.10/dist-packages",
+        "/home/mattia/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages",
+        "/home/mattia/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages",
+        "/home/mattia/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages",
+        "/home/mattia/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages",
+        "/home/mattia/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages",
+        "/home/mattia/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages",
+        "/home/mattia/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "ros.distro": "humble"
+}

@@ -1,0 +1,4 @@
+[console_scripts]
+joint_trajectory_tracking = dynamixel_joint_trajectory.joint_trajectory_tracking:main
+velocity_trajectory_tracking = dynamixel_joint_trajectory.velocity_trajectory_tracking:main
+

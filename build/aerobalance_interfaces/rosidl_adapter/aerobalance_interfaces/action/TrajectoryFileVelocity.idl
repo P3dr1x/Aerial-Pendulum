@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from aerobalance_interfaces/action/TrajectoryFileVelocity.action
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module aerobalance_interfaces {
+  module action {
+    struct TrajectoryFileVelocity_Goal {
+      string filepath;
+    };
+    module TrajectoryFileVelocity_Result_Constants {
+      const int8 SUCCESSFUL = 0;
+      const int8 INVALID_FILE = 1;
+      const int8 INVALID_GOAL = -1;
+      const int8 INVALID_JOINTS = -2;
+    };
+    struct TrajectoryFileVelocity_Result {
+      int8 error_code;
+    };
+    struct TrajectoryFileVelocity_Feedback {
+      std_msgs::msg::Header header;
+
+      sequence<string> joint_names;
+
+      sequence<double> actual;
+
+      sequence<double> desired;
+    };
+  };
+};

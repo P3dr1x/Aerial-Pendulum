@@ -1,0 +1,227 @@
+[0.019s] Invoking command in '/home/yash/aerobalance_ws/src/aerobalance/build/aerobalance_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash/aerobalance_ws/install/dynamixel_joint_trajectory:/opt/ros/humble /usr/bin/cmake /home/yash/aerobalance_ws/src/aerobalance/aerobalance_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces
+[0.226s] -- The C compiler identification is GNU 11.4.0
+[0.226s] -- The CXX compiler identification is GNU 11.4.0
+[0.227s] -- Detecting C compiler ABI info
+[0.227s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.229s] -- Detecting C compile features - done
+[0.229s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.253s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.256s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.371s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.411s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.438s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.462s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.466s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.471s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.651s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.658s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.941s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.353s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.371s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.373s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.395s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.395s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.395s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.395s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.414s] -- Found PythonExtra: .so  
+[1.481s] -- Added test 'lint_cmake' to check CMake code style
+[1.482s] -- Added test 'xmllint' to check XML markup files
+[1.485s] -- Configuring done
+[1.517s] -- Generating done
+[1.519s] -- Build files have been written to: /home/yash/aerobalance_ws/src/aerobalance/build/aerobalance_interfaces
+[1.530s] Invoked command in '/home/yash/aerobalance_ws/src/aerobalance/build/aerobalance_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash/aerobalance_ws/install/dynamixel_joint_trajectory:/opt/ros/humble /usr/bin/cmake /home/yash/aerobalance_ws/src/aerobalance/aerobalance_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces
+[1.532s] Invoking command in '/home/yash/aerobalance_ws/src/aerobalance/build/aerobalance_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash/aerobalance_ws/install/dynamixel_joint_trajectory:/opt/ros/humble /usr/bin/cmake --build /home/yash/aerobalance_ws/src/aerobalance/build/aerobalance_interfaces -- -j20 -l20
+[1.560s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.567s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.572s] [  5%] Built target ament_cmake_python_symlink_aerobalance_interfaces
+[1.783s] running egg_info
+[1.783s] creating aerobalance_interfaces.egg-info
+[1.783s] writing aerobalance_interfaces.egg-info/PKG-INFO
+[1.784s] writing dependency_links to aerobalance_interfaces.egg-info/dependency_links.txt
+[1.784s] writing top-level names to aerobalance_interfaces.egg-info/top_level.txt
+[1.784s] writing manifest file 'aerobalance_interfaces.egg-info/SOURCES.txt'
+[1.786s] reading manifest file 'aerobalance_interfaces.egg-info/SOURCES.txt'
+[1.787s] writing manifest file 'aerobalance_interfaces.egg-info/SOURCES.txt'
+[1.811s] [  5%] Built target ament_cmake_python_build_aerobalance_interfaces_egg
+[2.066s] [ 10%] [32mBuilding C object CMakeFiles/aerobalance_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobalance_interfaces/action/detail/trajectory_file_position__functions.c.o[0m
+[2.066s] [ 10%] [32mBuilding C object CMakeFiles/aerobalance_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aerobalance_interfaces/action/detail/trajectory_file_velocity__functions.c.o[0m
+[2.066s] [ 10%] Built target aerobalance_interfaces__cpp
+[2.074s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.075s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.075s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.178s] [ 20%] [32m[1mLinking C shared library libaerobalance_interfaces__rosidl_generator_c.so[0m
+[2.206s] [ 20%] Built target aerobalance_interfaces__rosidl_generator_c
+[2.214s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.215s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.219s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.439s] [ 30%] [32mBuilding CXX object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aerobalance_interfaces/action/trajectory_file_position__type_support.cpp.o[0m
+[2.442s] [ 33%] [32mBuilding CXX object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aerobalance_interfaces/action/trajectory_file_velocity__type_support.cpp.o[0m
+[2.493s] [ 35%] [32mBuilding CXX object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aerobalance_interfaces/action/detail/trajectory_file_position__type_support.cpp.o[0m
+[2.495s] [ 38%] [32mBuilding CXX object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aerobalance_interfaces/action/detail/trajectory_file_velocity__type_support.cpp.o[0m
+[2.551s] [ 41%] [32mBuilding CXX object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aerobalance_interfaces/action/trajectory_file_position__type_support.cpp.o[0m
+[2.554s] [ 43%] [32mBuilding CXX object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aerobalance_interfaces/action/trajectory_file_velocity__type_support.cpp.o[0m
+[2.567s] [ 46%] [32mBuilding CXX object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerobalance_interfaces/action/detail/dds_fastrtps/trajectory_file_position__type_support.cpp.o[0m
+[2.570s] [ 48%] [32mBuilding CXX object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerobalance_interfaces/action/detail/dds_fastrtps/trajectory_file_velocity__type_support.cpp.o[0m
+[2.610s] [ 51%] [32m[1mLinking CXX shared library libaerobalance_interfaces__rosidl_typesupport_c.so[0m
+[2.656s] [ 51%] Built target aerobalance_interfaces__rosidl_typesupport_c
+[2.670s] [ 53%] [32mBuilding C object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aerobalance_interfaces/action/detail/trajectory_file_position__type_support.c.o[0m
+[2.673s] [ 56%] [32mBuilding C object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aerobalance_interfaces/action/detail/trajectory_file_velocity__type_support.c.o[0m
+[2.696s] [ 58%] [32mBuilding CXX object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobalance_interfaces/action/detail/trajectory_file_position__type_support_c.cpp.o[0m
+[2.698s] [ 61%] [32mBuilding CXX object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerobalance_interfaces/action/detail/trajectory_file_velocity__type_support_c.cpp.o[0m
+[2.741s] [ 64%] [32m[1mLinking C shared library libaerobalance_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.774s] [ 64%] Built target aerobalance_interfaces__rosidl_typesupport_introspection_c
+[2.817s] [ 66%] [32m[1mLinking CXX shared library libaerobalance_interfaces__rosidl_typesupport_cpp.so[0m
+[2.857s] [ 66%] Built target aerobalance_interfaces__rosidl_typesupport_cpp
+[3.000s] [ 69%] [32m[1mLinking CXX shared library libaerobalance_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.056s] [ 69%] Built target aerobalance_interfaces__rosidl_typesupport_fastrtps_c
+[3.139s] [ 71%] [32m[1mLinking CXX shared library libaerobalance_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.143s] [ 74%] [32m[1mLinking CXX shared library libaerobalance_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.185s] [ 74%] Built target aerobalance_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.186s] [ 74%] Built target aerobalance_interfaces__rosidl_typesupport_introspection_cpp
+[3.196s] [ 74%] Built target aerobalance_interfaces
+[3.207s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.897s] [ 76%] Built target aerobalance_interfaces__py
+[3.907s] [ 79%] [32mBuilding C object CMakeFiles/aerobalance_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aerobalance_interfaces/action/_trajectory_file_position_s.c.o[0m
+[3.907s] [ 82%] [32mBuilding C object CMakeFiles/aerobalance_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aerobalance_interfaces/action/_trajectory_file_velocity_s.c.o[0m
+[3.997s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/aerobalance_interfaces/libaerobalance_interfaces__rosidl_generator_py.so[0m
+[4.031s] [ 84%] Built target aerobalance_interfaces__rosidl_generator_py
+[4.047s] [ 92%] [32mBuilding C object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aerobalance_interfaces/_aerobalance_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.047s] [ 92%] [32mBuilding C object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aerobalance_interfaces/_aerobalance_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.047s] [ 92%] [32mBuilding C object CMakeFiles/aerobalance_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aerobalance_interfaces/_aerobalance_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.128s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/aerobalance_interfaces/aerobalance_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.131s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/aerobalance_interfaces/aerobalance_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.133s] [100%] [32m[1mLinking C shared library rosidl_generator_py/aerobalance_interfaces/aerobalance_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.155s] [100%] Built target aerobalance_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.155s] [100%] Built target aerobalance_interfaces__rosidl_typesupport_c__pyext
+[4.158s] [100%] Built target aerobalance_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.164s] Invoked command in '/home/yash/aerobalance_ws/src/aerobalance/build/aerobalance_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash/aerobalance_ws/install/dynamixel_joint_trajectory:/opt/ros/humble /usr/bin/cmake --build /home/yash/aerobalance_ws/src/aerobalance/build/aerobalance_interfaces -- -j20 -l20
+[4.199s] Invoking command in '/home/yash/aerobalance_ws/src/aerobalance/build/aerobalance_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash/aerobalance_ws/install/dynamixel_joint_trajectory:/opt/ros/humble /usr/bin/cmake --install /home/yash/aerobalance_ws/src/aerobalance/build/aerobalance_interfaces
+[4.203s] -- Install configuration: ""
+[4.203s] -- Execute custom install script
+[4.203s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/ament_index/resource_index/rosidl_interfaces/aerobalance_interfaces
+[4.208s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_position__functions.h
+[4.212s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_position__struct.h
+[4.221s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_position__type_support.h
+[4.231s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_velocity__functions.h
+[4.238s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_velocity__struct.h
+[4.243s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_velocity__type_support.h
+[4.246s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/trajectory_file_position.h
+[4.250s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/trajectory_file_velocity.h
+[4.254s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.258s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/environment/library_path.sh
+[4.261s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/environment/library_path.dsv
+[4.265s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_position__rosidl_typesupport_fastrtps_c.h
+[4.269s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_velocity__rosidl_typesupport_fastrtps_c.h
+[4.273s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.276s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_position__builder.hpp
+[4.280s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_position__struct.hpp
+[4.283s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_position__traits.hpp
+[4.287s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_velocity__builder.hpp
+[4.290s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_velocity__struct.hpp
+[4.294s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_velocity__traits.hpp
+[4.298s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/trajectory_file_position.hpp
+[4.301s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/trajectory_file_velocity.hpp
+[4.306s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_position__rosidl_typesupport_fastrtps_cpp.hpp
+[4.309s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[4.315s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.320s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_position__rosidl_typesupport_introspection_c.h
+[4.325s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_velocity__rosidl_typesupport_introspection_c.h
+[4.330s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.335s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_position__rosidl_typesupport_introspection_cpp.hpp
+[4.339s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/include/aerobalance_interfaces/aerobalance_interfaces/action/detail/trajectory_file_velocity__rosidl_typesupport_introspection_cpp.hpp
+[4.343s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/environment/pythonpath.sh
+[4.346s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/environment/pythonpath.dsv
+[4.350s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.355s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.358s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.362s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.366s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/__init__.py
+[4.370s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/_aerobalance_interfaces_s.ep.rosidl_typesupport_c.c
+[4.374s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/_aerobalance_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.378s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/_aerobalance_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.382s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/action/__init__.py
+[4.386s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/action/_trajectory_file_position.py
+[4.390s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/action/_trajectory_file_position_s.c
+[4.394s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/action/_trajectory_file_velocity.py
+[4.398s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/action/_trajectory_file_velocity_s.c
+[4.401s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/aerobalance_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.405s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/aerobalance_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.409s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/aerobalance_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.413s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/libaerobalance_interfaces__rosidl_generator_py.so
+[4.419s] -- Up-to-date symlink: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/aerobalance_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.419s] -- Up-to-date symlink: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/aerobalance_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.419s] -- Up-to-date symlink: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/aerobalance_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.419s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/action/TrajectoryFilePosition.idl
+[4.424s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/action/TrajectoryFileVelocity.idl
+[4.429s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/action/TrajectoryFilePosition.action
+[4.433s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/action/TrajectoryFileVelocity.action
+[4.438s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/ament_index/resource_index/package_run_dependencies/aerobalance_interfaces
+[4.441s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/ament_index/resource_index/parent_prefix_path/aerobalance_interfaces
+[4.445s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/environment/ament_prefix_path.sh
+[4.449s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/environment/ament_prefix_path.dsv
+[4.452s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/environment/path.sh
+[4.456s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/environment/path.dsv
+[4.459s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/local_setup.bash
+[4.463s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/local_setup.sh
+[4.466s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/local_setup.zsh
+[4.470s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/local_setup.dsv
+[4.473s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/package.dsv
+[4.477s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/ament_index/resource_index/packages/aerobalance_interfaces
+[4.480s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.483s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.487s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.490s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.494s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.498s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.502s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.505s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/aerobalance_interfacesConfig.cmake
+[4.509s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/aerobalance_interfacesConfig-version.cmake
+[4.513s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/package.xml
+[4.521s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_generator_c.so
+[4.521s] -- Set runtime path of "/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_generator_c.so" to ""
+[4.521s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.521s] -- Set runtime path of "/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.521s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.521s] -- Set runtime path of "/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.521s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_typesupport_introspection_c.so
+[4.521s] -- Set runtime path of "/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.521s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_typesupport_c.so
+[4.522s] -- Set runtime path of "/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_typesupport_c.so" to ""
+[4.522s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.522s] -- Set runtime path of "/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.522s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_typesupport_cpp.so
+[4.522s] -- Set runtime path of "/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.556s] Listing '/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces'...
+[4.556s] Compiling '/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/__init__.py'...
+[4.556s] Listing '/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/action'...
+[4.556s] Compiling '/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/action/__init__.py'...
+[4.556s] Compiling '/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/action/_trajectory_file_position.py'...
+[4.556s] Compiling '/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/local/lib/python3.10/dist-packages/aerobalance_interfaces/action/_trajectory_file_velocity.py'...
+[4.558s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_generator_py.so
+[4.559s] -- Set runtime path of "/home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/lib/libaerobalance_interfaces__rosidl_generator_py.so" to ""
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/export_aerobalance_interfaces__rosidl_generator_cExport.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/export_aerobalance_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/export_aerobalance_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/export_aerobalance_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/export_aerobalance_interfaces__rosidl_generator_cppExport.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/export_aerobalance_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/export_aerobalance_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/aerobalance_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/aerobalance_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/aerobalance_interfaces__rosidl_typesupport_cExport.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/aerobalance_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/aerobalance_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/aerobalance_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/aerobalance_interfaces__rosidl_typesupport_cppExport.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/aerobalance_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/export_aerobalance_interfaces__rosidl_generator_pyExport.cmake
+[4.559s] -- Installing: /home/yash/aerobalance_ws/src/aerobalance/install/aerobalance_interfaces/share/aerobalance_interfaces/cmake/export_aerobalance_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.562s] Invoked command in '/home/yash/aerobalance_ws/src/aerobalance/build/aerobalance_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash/aerobalance_ws/install/dynamixel_joint_trajectory:/opt/ros/humble /usr/bin/cmake --install /home/yash/aerobalance_ws/src/aerobalance/build/aerobalance_interfaces

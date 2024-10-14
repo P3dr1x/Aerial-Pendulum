@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+dynamixel_joint_trajectory/__init__.py
+dynamixel_joint_trajectory/joint_trajectory_tracking.py
+dynamixel_joint_trajectory/velocity_trajectory_tracking.py
+dynamixel_joint_trajectory.egg-info/PKG-INFO
+dynamixel_joint_trajectory.egg-info/SOURCES.txt
+dynamixel_joint_trajectory.egg-info/dependency_links.txt
+dynamixel_joint_trajectory.egg-info/entry_points.txt
+dynamixel_joint_trajectory.egg-info/requires.txt
+dynamixel_joint_trajectory.egg-info/top_level.txt
+dynamixel_joint_trajectory.egg-info/zip-safe
+resource/dynamixel_joint_trajectory

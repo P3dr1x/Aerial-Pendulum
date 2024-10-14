@@ -1,0 +1,9 @@
+source;share/dynamixel_joint_trajectory/hook/pythonpath.ps1
+source;share/dynamixel_joint_trajectory/hook/pythonpath.dsv
+source;share/dynamixel_joint_trajectory/hook/pythonpath.sh
+source;share/dynamixel_joint_trajectory/hook/ament_prefix_path.ps1
+source;share/dynamixel_joint_trajectory/hook/ament_prefix_path.dsv
+source;share/dynamixel_joint_trajectory/hook/ament_prefix_path.sh
+source;../../build/dynamixel_joint_trajectory/share/dynamixel_joint_trajectory/hook/pythonpath_develop.ps1
+source;../../build/dynamixel_joint_trajectory/share/dynamixel_joint_trajectory/hook/pythonpath_develop.dsv
+source;../../build/dynamixel_joint_trajectory/share/dynamixel_joint_trajectory/hook/pythonpath_develop.sh

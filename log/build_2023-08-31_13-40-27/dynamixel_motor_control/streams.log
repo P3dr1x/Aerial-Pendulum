@@ -1,0 +1,74 @@
+[0.219s] Invoking command in '/home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_motor_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash/aerobalance_ws/install/dynamixel_joint_trajectory:/opt/ros/humble /usr/bin/cmake /home/yash/aerobalance_ws/src/aerobalance/dynamixel_motor_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control
+[0.247s] -- The C compiler identification is GNU 11.4.0
+[0.279s] -- The CXX compiler identification is GNU 11.4.0
+[0.283s] -- Detecting C compiler ABI info
+[0.328s] -- Detecting C compiler ABI info - done
+[0.332s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.332s] -- Detecting C compile features
+[0.332s] -- Detecting C compile features - done
+[0.334s] -- Detecting CXX compiler ABI info
+[0.379s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.385s] -- Detecting CXX compile features - done
+[0.386s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.502s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.553s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.576s] -- Found robot_state_publisher: 3.0.2 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.607s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.614s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.623s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.636s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.650s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.751s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.751s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.751s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.802s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.804s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.880s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.896s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.932s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.938s] -- Looking for pthread.h
+[0.978s] -- Looking for pthread.h - found
+[0.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.023s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.024s] -- Found Threads: TRUE  
+[1.478s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.481s] -- Found rviz2: 11.2.5 (/opt/ros/humble/share/rviz2/cmake)
+[1.483s] -- Found ros2_control: 2.28.0 (/opt/ros/humble/share/ros2_control/cmake)
+[1.484s] -- Found ros2_controllers: 2.23.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[1.485s] -- Found dynamixel_hardware: 0.0.0 (/home/yash/aerobalance_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake)
+[1.880s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.955s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.956s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.957s] -- Added test 'lint_cmake' to check CMake code style
+[1.957s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.958s] -- Added test 'xmllint' to check XML markup files
+[1.959s] -- Configuring done
+[1.963s] -- Generating done
+[1.964s] -- Build files have been written to: /home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_motor_control
+[1.972s] Invoked command in '/home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_motor_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash/aerobalance_ws/install/dynamixel_joint_trajectory:/opt/ros/humble /usr/bin/cmake /home/yash/aerobalance_ws/src/aerobalance/dynamixel_motor_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control
+[1.972s] Invoking command in '/home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_motor_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash/aerobalance_ws/install/dynamixel_joint_trajectory:/opt/ros/humble /usr/bin/cmake --build /home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_motor_control -- -j20 -l20
+[2.002s] Invoked command in '/home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_motor_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash/aerobalance_ws/install/dynamixel_joint_trajectory:/opt/ros/humble /usr/bin/cmake --build /home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_motor_control -- -j20 -l20
+[2.025s] Invoking command in '/home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_motor_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash/aerobalance_ws/install/dynamixel_joint_trajectory:/opt/ros/humble /usr/bin/cmake --install /home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_motor_control
+[2.032s] -- Install configuration: ""
+[2.033s] -- Execute custom install script
+[2.033s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/urdf/dynamixel_motors.xacro
+[2.041s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/controllers/controller_single.yaml
+[2.047s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/launch/dynamixel_motors.launch.py
+[2.053s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/ament_index/resource_index/package_run_dependencies/dynamixel_motor_control
+[2.059s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/ament_index/resource_index/parent_prefix_path/dynamixel_motor_control
+[2.067s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/environment/ament_prefix_path.sh
+[2.073s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/environment/ament_prefix_path.dsv
+[2.082s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/environment/path.sh
+[2.089s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/environment/path.dsv
+[2.098s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/local_setup.bash
+[2.106s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/local_setup.sh
+[2.115s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/local_setup.zsh
+[2.124s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/local_setup.dsv
+[2.132s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/package.dsv
+[2.141s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/ament_index/resource_index/packages/dynamixel_motor_control
+[2.151s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/cmake/dynamixel_motor_controlConfig.cmake
+[2.159s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/cmake/dynamixel_motor_controlConfig-version.cmake
+[2.165s] -- Symlinking: /home/yash/aerobalance_ws/src/aerobalance/install/dynamixel_motor_control/share/dynamixel_motor_control/package.xml
+[2.175s] Invoked command in '/home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_motor_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash/aerobalance_ws/install/dynamixel_joint_trajectory:/opt/ros/humble /usr/bin/cmake --install /home/yash/aerobalance_ws/src/aerobalance/build/dynamixel_motor_control

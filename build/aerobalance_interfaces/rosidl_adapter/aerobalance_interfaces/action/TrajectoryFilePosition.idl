@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from aerobalance_interfaces/action/TrajectoryFilePosition.action
+// generated code does not contain a copyright notice
+
+#include "trajectory_msgs/msg/JointTrajectoryPoint.idl"
+
+module aerobalance_interfaces {
+  module action {
+    struct TrajectoryFilePosition_Goal {
+      string filepath;
+
+      @default (value=0.1)
+      float timestep;
+
+      @default (value="joint1")
+      string joint;
+    };
+    module TrajectoryFilePosition_Result_Constants {
+      const int8 SUCCESSFUL = 0;
+      const int8 INVALID_FILE = 1;
+      const int8 INVALID_GOAL = -1;
+      const int8 INVALID_JOINTS = -2;
+    };
+    struct TrajectoryFilePosition_Result {
+      int8 error_code;
+    };
+    struct TrajectoryFilePosition_Feedback {
+      trajectory_msgs::msg::JointTrajectoryPoint actual;
+
+      trajectory_msgs::msg::JointTrajectoryPoint desired;
+    };
+  };
+};
